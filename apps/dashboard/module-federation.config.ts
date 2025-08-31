@@ -15,6 +15,7 @@ const config: ModuleFederationConfig = {
    *
    */
   remotes: [],
+  additionalShared: ['@angular/material/form-field', '@angular/cdk'],
 };
 
 /**

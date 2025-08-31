@@ -5,6 +5,7 @@ const config: ModuleFederationConfig = {
   exposes: {
     './Routes': 'apps/login/src/app/remote-entry/entry.routes.ts',
   },
+  additionalShared: ['@angular/material/form-field', '@angular/cdk'],
 };
 
 /**
